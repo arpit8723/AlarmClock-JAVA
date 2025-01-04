@@ -8,7 +8,7 @@ public class Main {
         Scanner scanner=new Scanner(System.in);
         DateTimeFormatter formatter=DateTimeFormatter.ofPattern("HH:mm:ss");
         LocalTime alarmTime=null ;
-        String FilePath="C:\\Users\\HP\\Desktop\\pdg.wav";
+        String FilePath="C:\\Users\\HP\\Desktop\\pdg.wav"; //audio file of your choice 
 
         //while loop to keep asking for input until valid value is provided
         while(alarmTime==null){
